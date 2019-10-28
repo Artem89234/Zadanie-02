@@ -1,0 +1,8 @@
+import random
+a = random.randint(1,100)
+x = int(input('Угадайтн число:'))
+if (a==x):
+    print('Вы угадали число')
+else:
+    print('Вы не угадали число')
+print('Число которое надо было угадать:',a)
